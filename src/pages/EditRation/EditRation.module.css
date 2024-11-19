@@ -1,0 +1,28 @@
+.container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+  }
+  
+  .error {
+    background-color: var(--error-color);
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+  }

@@ -1,0 +1,75 @@
+.card {
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .cardTitle {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .statusAvailable {
+    background-color: var(--success-color);
+    color: white;
+  }
+  
+  .statusDeployed {
+    background-color: var(--warning-color);
+    color: white;
+  }
+  
+  .statusExpired {
+    background-color: var(--error-color);
+    color: white;
+  }
+  
+  .cardContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  
+  .info p {
+    margin-bottom: 8px;
+  }
+  
+  .contents ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contents li {
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .cardActions {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--secondary-color);
+  }
